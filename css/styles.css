@@ -1,0 +1,179 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Imprima', sans-serif;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 30px auto 0 auto;
+  font-family: 'Bilbo', cursive;
+  color: #1fab89;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Fresca', sans-serif;
+  font-size: 2.5rem;
+  color: #62d2a2;
+  font-weight: normal;
+  margin: 20px auto;
+}
+
+h3 {
+  font-family: 'Fresca', sans-serif;
+  font-size: 1.5rem;
+  color: #1fab89;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: lightgrey;
+  border-width: 6px;
+  width: 70px;
+}
+
+a {
+  color: #1fab89;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  line-height: 2;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #d7fbe8;
+  margin-top: 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  text-align: center;
+}
+
+.bottom-container {
+  background-color: #9DF3C4;
+  margin-top: 0;
+  position: relative;
+  padding: 30px 0 10px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 60px;
+  right: 400px;
+}
+
+.bot-cloud {
+  position: absolute;
+  top: 200px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  text-align: left;
+  margin: 100px auto;
+}
+
+.webdev {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.assistant {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.technical-support {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.customer-service {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.seo {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.profile {
+  margin: 50px auto;
+}
+
+.skills {
+  margin: 50px auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 20px auto 70px;
+}
+
+.contact-me {
+  margin: 50px auto;
+}
+
+.copyright {
+  color: #EAF6F6;
+  padding: 20px 0;
+  font-size: .90rem;
+}
+
+.footer-link {
+  margin: 0 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.btn {
+  background: #62d2a2;
+  background-image: -webkit-linear-gradient(top, #62d2a2, #1fab89);
+  background-image: -moz-linear-gradient(top, #62d2a2, #1fab89);
+  background-image: -ms-linear-gradient(top, #62d2a2, #1fab89);
+  background-image: -o-linear-gradient(top, #62d2a2, #1fab89);
+  background-image: linear-gradient(to bottom, #62d2a2, #1fab89);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: 'Fresca', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #9DF3C4;
+  background-image: -webkit-linear-gradient(top, #9DF3C4, #9DF3C4);
+  background-image: -moz-linear-gradient(top, #9DF3C4, #9DF3C4);
+  background-image: -ms-linear-gradient(top, #9DF3C4, #9DF3C4);
+  background-image: -o-linear-gradient(top, #9DF3C4, #9DF3C4);
+  background-image: linear-gradient(to bottom, #9DF3C4, #9DF3C4);
+  text-decoration: none;
+}
